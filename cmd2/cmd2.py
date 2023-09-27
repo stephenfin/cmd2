@@ -1117,7 +1117,6 @@ class Cmd(cmd.Cmd):
         """
         self.print_to(self.stdout, msg, end=end, style=ansi.style_output if apply_style else None, paged=paged, chop=chop)
 
-    # noinspection PyMethodMayBeStatic
     def perror(
         self,
         msg: Any = '',
